@@ -1,0 +1,14 @@
+{
+  "bundles": {
+    "Pimcore\\Bundle\\PortalEngineBundle\\PimcorePortalEngineBundle": ["all"]
+  },
+  "add-lines": [
+    {
+      "file": "config/packages/security.yaml",
+      "content": "        portal_engine: '%pimcore_portal_engine.firewall_settings%'",
+      "position": "after_target",
+      "target": "pimcore_admin: '%pimcore_admin_bundle.firewall_settings%'",
+      "warn_if_missing": true
+    }
+  ]
+}
