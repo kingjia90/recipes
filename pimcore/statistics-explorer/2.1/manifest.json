@@ -1,5 +1,0 @@
-{
-  "bundles": {
-    "Pimcore\\Bundle\\StatisticsExplorerBundle\\PimcoreStatisticsExplorerBundle": ["all"]
-  }
-}
