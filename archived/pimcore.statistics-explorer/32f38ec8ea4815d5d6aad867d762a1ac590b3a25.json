@@ -1,0 +1,15 @@
+{
+    "manifests": {
+        "pimcore/statistics-explorer": {
+            "manifest": {
+                "bundles": {
+                    "Pimcore\\Bundle\\StatisticsExplorerBundle\\PimcoreStatisticsExplorerBundle": [
+                        "all"
+                    ]
+                }
+            },
+            "files": [],
+            "ref": "32f38ec8ea4815d5d6aad867d762a1ac590b3a25"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "manifests": {
+        "pimcore/asset-metadata-class-definitions": {
+            "manifest": {
+                "bundles": {
+                    "Pimcore\\AssetMetadataClassDefinitionsBundle\\PimcoreAssetMetadataClassDefinitionsBundle": [
+                        "all"
+                    ]
+                }
+            },
+            "files": [],
+            "ref": "016b1d92ba6f97eee2f35de7fb8f6f32e885749d"
+        }
+    }
+}
