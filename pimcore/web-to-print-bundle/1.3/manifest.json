@@ -1,4 +1,7 @@
 {
+  "bundles": {
+    "Pimcore\\Bundle\\WebToPrintBundle\\PimcoreWebToPrintBundle": ["all"]
+  },
   "copy-from-recipe": {
     "src/": "%SRC_DIR%/",
     "templates/": "templates/",
